@@ -1,12 +1,14 @@
-name: End-to-end tests
+name: Teste Cypress (e2e - ponta a ponta)
 on: push
 jobs:
   cypress-run:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v5
+      #- name: Cypress run
+      #  uses: cypress-io/github-action@v5
+      - name: Executar testes Cypress
+        run: npx cypress run --spec "cypress/e2e/1-getting-started"
