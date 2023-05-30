@@ -7,10 +7,10 @@ Este repositório conta com os testes criados automaticamente no momento da inst
 ### Além disso
 
 - Teste Automático no GitHub
-  - **GitHub Actions:** ao mandar qualquer commit para o repositório é executado os testes. Esses testes automáticos foram configurados por meio do arquivo [ci.yml](https://github.com/limajonatas/tests_with_cypress/blob/main/.github/workflows/ci.yml)
+  - **[GitHub Actions:](https://github.com/limajonatas/tests_with_cypress/actions)** ao mandar qualquer commit para o repositório é executado os testes. Esses testes automáticos foram configurados por meio do arquivo [ci.yml](https://github.com/limajonatas/tests_with_cypress/blob/main/.github/workflows/ci.yml)
 - Outros Testes adicionados
 
-### Cypress[^1]
+### [Cypress[^1]](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 Passos para instalar e executar os testes:
 
