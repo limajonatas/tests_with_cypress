@@ -24,7 +24,7 @@ describe("exemplo de aplicativo de lista de tarefas", () => {
     // Usamos o comando cy.get() para obter todos os elementos que correspondem ao seletor.
     // Em seguida, usamos should para afirmar que existem dois itens correspondentes,
     // que são os dois itens padrão.
-    cy.get(".todo-list li").should("have.length", 2);
+    cy.get(".todo-list li").should("have.length", 3);
 
     // Podemos ir ainda mais longe e verificar se as tarefas padrão contêm
     // o texto correto. Usamos as funções `first` e `last`
