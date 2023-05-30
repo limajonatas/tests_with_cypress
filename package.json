@@ -4,7 +4,8 @@
   "description": "Primeiro projeto com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "cy": "npx cypress run"
   },
   "author": "Jonatas",
   "license": "ISC",

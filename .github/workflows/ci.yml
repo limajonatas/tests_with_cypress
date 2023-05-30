@@ -16,8 +16,8 @@ jobs:
         run: npm ci
 
         #roda todos os testes do cypress
-      #- name: Cypress run
-      #  uses: cypress-io/github-action@v5
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
 
-      - name: Executar Testes Específicos Cypress
-        run: npx cypress run --spec "cypress/e2e/1-getting-started"
+      # - name: Executar Testes Específicos Cypress
+      #   run: npx cypress run --spec "cypress/e2e/1-getting-started"
