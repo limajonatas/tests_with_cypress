@@ -1,76 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Testes em Cypress</title>
-    <style>
-      .h1 {
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Testes em Cypress</h1>
+# Testes em Cypress
 
-    <hr />
-    <p>
-      Este repositório conta com os testes criados automaticamente no momento da
-      instalação do Cypress.
-    </p>
+---
 
-    <h3 style="margin-bottom: 0px">Além disso</h3>
+Este repositório conta com os testes criados automaticamente no momento da instalação do Cypress.
 
-    <ul>
-      <li>
-        <label> Teste Automático no GitHub </label>
-        <ul>
-          <li>
-            <strong>GitHub Actions:</strong> ao mandar qualquer commit para o
-            repositório é executado os testes. Esses testes automáticos foram
-            configurados por meio do arquivo
-            <a
-              href="https://github.com/limajonatas/tests_with_cypress/blob/main/.github/workflows/ci.yml"
-            >
-              ci.yml
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>Outros Testes adicionados</li>
-    </ul>
-    <br />
+### Além disso
 
-    <h3 style="margin-bottom: 0px">Cypress</h3>
-    <sup
-      ><a
-        href="https://docs.cypress.io/guides/getting-started/installing-cypress"
-      >
-        Doc
-      </a>
-    </sup>
+- Teste Automático no GitHub
+  - **GitHub Actions:** ao mandar qualquer commit para o repositório é executado os testes. Esses testes automáticos foram configurados por meio do arquivo [ci.yml](https://github.com/limajonatas/tests_with_cypress/blob/main/.github/workflows/ci.yml)
+- Outros Testes adicionados
 
-    <p>Passos para instalar e executar os testes:</p>
+### Cypress[^1]
 
-    <ol>
-      <li>
-        Instalar:<span style="background-color: rgba(128, 128, 128, 0.381)">
-          <code> npm install cypress --save-dev</code></span
-        >
-        ou
-        <span style="background-color: rgba(128, 128, 128, 0.381)"
-          ><code> yarn add cypress --dev</code></span
-        >
-      </li>
-      <li>
-        Abrir:
-        <span style="background-color: rgba(128, 128, 128, 0.381)"
-          ><code>npx cypress open</code></span
-        >
-        ou
-        <span style="background-color: rgba(128, 128, 128, 0.381)"
-          ><code>yarn run cypress open</code></span
-        >
-      </li>
-      <li>Executar os testes no prompt</li>
-    </ol>
-  </body>
-</html>
+Passos para instalar e executar os testes:
+
+1. Instalar: ```npm install cypress --save-dev ``` ou ``` yarn add cypress --dev ```
+2. Abrir: ```npx cypress open``` ou ```yarn run cypress open```
+3. Executar os testes no prompt
+
+[^1]: [Documentação do Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
