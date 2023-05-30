@@ -7,17 +7,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Configurar o Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18.x'
-          
+          node-version: "16"
+
       - name: Instalar dependências
         run: npm ci
 
         #roda todos os testes do cypress
       #- name: Cypress run
       #  uses: cypress-io/github-action@v5
-      
+
       - name: Executar Testes Específicos Cypress
         run: npx cypress run --spec "cypress/e2e/1-getting-started"
