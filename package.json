@@ -1,0 +1,14 @@
+{
+  "name": "cypress_1",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Jonatas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
