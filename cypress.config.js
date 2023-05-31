@@ -7,6 +7,14 @@ module.exports = defineConfig({
     },
   },
   video: false,
-  videoFolder: 'cypress/videos',
-  screenshotsFolder: 'cypress/screenshots',
+  videoFolder: "cypress/videos",
+  screenshotsFolder: "cypress/screenshots",
+  reporter: "mochawesome",
+  reporterOptions: {
+    reportDir: "cypress/report/mochawesome-report",
+    overwrite: true,
+    html: true,
+    json: false,
+    timestamp: "mmddyyyy_HHMMss",
+  },
 });
